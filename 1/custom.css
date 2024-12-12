@@ -1,0 +1,42 @@
+header {
+    border: 3px dashed black;
+    padding: 10px;
+    margin: 5px;
+}
+div {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+div:first-child {
+    background-color: skyblue;
+    transform: translateX(30%);
+}
+
+div:nth-child(2) {
+    background-color: yellow;
+    transform: translateY(50%);
+}
+
+div:nth-child(3) {
+    background-color: aqua;
+    transform: translate(100%, -2rem);
+}
+section {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+}
+section:first-child {
+    background-color: blue;
+    transform: translate(100%, 10%);
+}
+section:nth-child(2) {
+    background-color: green;
+    transform: translate(300px, -45px);
+}
+section:last-child {
+    background-color: red;
+    transform: translate(100px, -334px);
+}
